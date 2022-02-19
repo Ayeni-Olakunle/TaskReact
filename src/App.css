@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.holdALl {
+  width: 40%;
+  box-shadow: 5px 5px 15px #e9e9e9, -5px -5px 15px #e9e9e9;
+  margin-top: 3em;
+  border-radius: 15px;
+  padding: 20px;
+}
+.submit {
+  padding: 10px 15px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  color: white;
+  background-color: #ab0023;
+  cursor: pointer;
+}
+
+.trash {
+  cursor: pointer;
+  color: #ab0023;
+}
+.listName {
+  list-style: none;
+  text-align: left;
+  margin: 25px -20px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #dadada, -5px -5px 5px #dadada;
+  width: 95%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputForm {
+  width: 70%;
+  padding: 15px;
+  margin-right: 15px;
+  border: none;
+  box-shadow: 5px 5px 5px #e5e5e5a6, -5px -5px 5px #e5e5e5a6;
+  border-radius: 50px;
+  outline: none;
+}
+
+.holdChange {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.inputForm1 {
+  width: 30%;
+  padding: 10px 15px;
+  margin-right: 15px;
+  border: none;
+  box-shadow: 5px 5px 5px #e5e5e5a6, -5px -5px 5px #e5e5e5a6;
+  border-radius: 50px;
+  outline: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
